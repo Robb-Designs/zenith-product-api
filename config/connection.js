@@ -11,3 +11,5 @@ async function mongoConnect() {
         process.exit(1); // exit code: Startup failed. Shut app down.
     }
 }
+
+module.exports = mongoConnect;
