@@ -7,7 +7,7 @@ async function mongoConnect() {
         console.log('MongoDB Connection Successful');
 
     } catch (error) {
-        console.error('Server Error: ', error.message);
+        console.error('MongoDB Connection Error: ', error.message);
         process.exit(1); // exit code: Startup failed. Shut app down.
     }
 }
